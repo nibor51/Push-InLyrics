@@ -214,3 +214,46 @@ body {
 .name {
     color: #fff;
 }
+
+.show-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.search-container {
+    background-color: var(--bg-card-and-search);
+    color: var(--font-color-blue-bg);
+    padding: 1rem;
+    border-radius: 100px;
+}
+
+.head-container {
+    border-bottom: 1px solid var(--items);
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 45px;
+    height: 45px;
+    background: url("/assets/images/loupe.png");
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cards {
+    height: 50vh;
+    margin: 3rem 0;
+}
+
+.div-card {
+    margin: 1rem 0;
+}

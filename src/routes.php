@@ -10,7 +10,7 @@ return [
     '' => ['HomeController', 'index',],
     'items' => ['ItemController', 'index',],
     'items/edit' => ['ItemController', 'edit', ['id']],
-    'items/show' => ['ItemController', 'show', ['id']],
+    'show' => ['HomeController', 'show'],
     'items/add' => ['ItemController', 'add',],
     'items/delete' => ['ItemController', 'delete',],
 ];
