@@ -1,3 +1,4 @@
+
 {% extends 'layout.html.twig' %}
 
 {% block content %}
@@ -14,6 +15,7 @@
     <div class="v24_5">
         <div class="v18_20"></div>
         <div class="v18_22"></div>
+
         <span class="v18_24">
             Album 
             Nom de la musique
@@ -29,11 +31,9 @@
 </div>
 
 
-    <h1>Hello Wilder !</h1>
 <div class="">
-{% include 'Components/_player.html.twig' with {trackId: '3dkIE8P7hvl3tHl9KSb6dA'} %}
-{% include 'Components/_player.html.twig' with {trackId: '5Mxfz7g8AnAhV7vtwWrSR6'} %}
-{% include 'Components/_player.html.twig' with {trackId: '5dY0MAjN9AkigLgv3U3WJS'} %}
+    {% include 'Components/_player.html.twig' with {trackId: '3dkIE8P7hvl3tHl9KSb6dA'} %} {% include 'Components/_player.html.twig' with {trackId: '5Mxfz7g8AnAhV7vtwWrSR6'} %} {% include 'Components/_player.html.twig' with {trackId: '5dY0MAjN9AkigLgv3U3WJS'}
+    %}
 </div>
 
 {% endblock %}
