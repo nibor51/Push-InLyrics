@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --backgrouncolor-body: #14194B;
+    --font-color-blue-bg: #E2E2E2;
+    --font-color-orange-bg: #14194B;
+    --backgroundcolor-card: #F68579;
+    --items: #57C7B3;
+    --font-title: 'Montserrat', sans-serif;
+    --font-text: 'Roboto', sans-serif;
+}
