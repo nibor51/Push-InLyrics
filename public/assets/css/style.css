@@ -13,11 +13,21 @@
 
 * {
     box-sizing: border-box;
-  }
-  body {
+}
+
+body {
     font-size: 14px;
-  }
-  .logo {
+    background-color: var(--bg-body);
+    font-family: var(--font-text);
+    color: var(--font-color-blue-bg);
+}
+
+.home-page {
+    display: flex;
+}
+
+
+/* .logo {
     width: 414px;
     height: 896px;
     background: url("../images/v24_2.png");
@@ -195,4 +205,4 @@
   .name {
     color: #fff;
   }
-  
+   */

@@ -1,16 +1,27 @@
-{% extends 'layout.html.twig' %}
-
-{% block content %}
-<div class="logo"><div class="v12_34"></div><div class="v24_6"><div class="v18_21"></div><div class="v18_23"></div><span class="v18_25">Album 
-Nom de la musique</span></div><div class="v24_5"><div class="v18_20"></div><div class="v18_22"></div><span class="v18_24">Album 
-Nom de la musique</span></div><div class="name"></div><div class="v24_4"><div class="v12_39"></div><div class="v12_60"></div></div><div class="v12_44"></div><div class="name"></div></div>
-
-
-    <h1>Hello Wilder !</h1>
-<div class="">
-{% include 'Components/_player.html.twig' with {trackId: '3dkIE8P7hvl3tHl9KSb6dA'} %}
-{% include 'Components/_player.html.twig' with {trackId: '5Mxfz7g8AnAhV7vtwWrSR6'} %}
-{% include 'Components/_player.html.twig' with {trackId: '5dY0MAjN9AkigLgv3U3WJS'} %}
+{% extends 'layout.html.twig' %} {% block content %}
+<img src="/assets/images/Push'in Lyrics.png" alt="logo" width="350px">{#
+<div class="logo">
+    <div class="v12_34"></div>
+    <div class="v24_6">
+        <div class="v18_21"></div>
+        <div class="v18_23"></div><span class="v18_25">Album 
+Nom de la musique</span></div>
+    <div class="v24_5">
+        <div class="v18_20"></div>
+        <div class="v18_22"></div><span class="v18_24">Album 
+Nom de la musique</span></div>
+    <div class="name"></div>
+    <div class="v24_4">
+        <div class="v12_39"></div>
+        <div class="v12_60"></div>
+    </div>
+    <div class="v12_44"></div>
+    <div class="name"></div>
 </div>
 
-{% endblock %}
+
+<h1>Hello Wilder !</h1>
+<div class="">
+    {% include 'Components/_player.html.twig' with {trackId: '3dkIE8P7hvl3tHl9KSb6dA'} %} {% include 'Components/_player.html.twig' with {trackId: '5Mxfz7g8AnAhV7vtwWrSR6'} %} {% include 'Components/_player.html.twig' with {trackId: '5dY0MAjN9AkigLgv3U3WJS'}
+    %}
+</div> #} {% endblock %}
