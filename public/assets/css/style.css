@@ -20,7 +20,7 @@
   .logo {
     width: 414px;
     height: 896px;
-    background: url("../images/v24_2.png");
+    background: url("../images/Amel\ Bent.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -45,7 +45,7 @@
   .v24_6 {
     width: 155px;
     height: 217px;
-    background: url("../images/v24_6.png");
+    background: url("../images/Amel\ Bent.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -58,7 +58,7 @@
   .v18_21 {
     width: 150px;
     height: 150px;
-    background: url("../images/v18_21.png");
+    background: url("../images/Mister\ You.png");
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -91,7 +91,7 @@
   .v24_5 {
     width: 152px;
     height: 217px;
-    background: url("../images/v24_5.png");
+    background: url("../images/Amel\ Bent.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -104,7 +104,7 @@
   .v18_20 {
     width: 150px;
     height: 150px;
-    background: url("../images/v18_20.png");
+    background: url("../images/Mister\ You.png");
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -140,7 +140,8 @@
   .v24_4 {
     width: 350px;
     height: 94px;
-    background: url("../images/v24_4.png");
+    /* BG INUTILE */
+    background: url("../images/Edith\ Piaf.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -150,6 +151,7 @@
     left: 39px;
     overflow: hidden;
   }
+  /* SEARCH BAR */
   .v12_39 {
     width: 350px;
     height: 94px;
@@ -165,10 +167,12 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
   }
+  /* END SEARCH BAR */
+  /* LOUPE */
   .v12_60 {
     width: 45px;
     height: 45px;
-    background: url("../images/v12_60.png");
+    background: url("../images/Amel\ Bent.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -179,10 +183,12 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
   }
+  /* END LOUPE */
+  /* LOGO */
   .v12_44 {
     width: 324px;
     height: 322px;
-    background: url("../images/v12_44.png");
+    background: url("../images/Push\'in\ Lyrics.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -192,6 +198,7 @@
     left: 45px;
     overflow: hidden;
   }
+  /* END LOGO */
   .name {
     color: #fff;
   }
