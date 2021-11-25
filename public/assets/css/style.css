@@ -13,36 +13,36 @@
 
 * {
     box-sizing: border-box;
-  }
-  body {
+}
+
+body {
     font-size: 14px;
-  }
-  .logo {
+    background-color: var(--bg-body);
+    font-family: var(--font-color-blue-bg);
+}
+
+.logo {
     width: 414px;
     height: 896px;
-    background: url("../images/v24_2.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v12_34 {
+    width: 414px;
+    height: 896px;
+    background: rgba(20, 25, 75, 1);
     opacity: 1;
     position: relative;
     top: 0px;
     left: 0px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 1);
     overflow: hidden;
-  }
-  .v12_34 {
-    width: 414px;
-    height: 896px;
-    background: rgba(20,25,75,1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    border: 1px solid rgba(0,0,0,1);
-    overflow: hidden;
-  }
-  .v24_6 {
+}
+
+.v24_6 {
     width: 155px;
     height: 217px;
     background: url("../images/v24_6.png");
@@ -54,8 +54,9 @@
     top: 581px;
     left: 224px;
     overflow: hidden;
-  }
-  .v18_21 {
+}
+
+.v18_21 {
     width: 150px;
     height: 150px;
     background: url("../images/v18_21.png");
@@ -65,20 +66,22 @@
     left: 5px;
     border-radius: 50%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44999998807907104);
-  }
-  .v18_23 {
+}
+
+.v18_23 {
     width: 150px;
     height: 40px;
-    background: rgba(87,199,179,1);
+    background: rgba(87, 199, 179, 1);
     opacity: 1;
     position: absolute;
     top: 177px;
     left: 0px;
     overflow: hidden;
-  }
-  .v18_25 {
+}
+
+.v18_25 {
     width: 123px;
-    color: rgba(0,0,0,1);
+    color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 182px;
     left: 18px;
@@ -87,8 +90,9 @@
     font-size: 13px;
     opacity: 1;
     text-align: center;
-  }
-  .v24_5 {
+}
+
+.v24_5 {
     width: 152px;
     height: 217px;
     background: url("../images/v24_5.png");
@@ -100,8 +104,9 @@
     top: 581px;
     left: 42px;
     overflow: hidden;
-  }
-  .v18_20 {
+}
+
+.v18_20 {
     width: 150px;
     height: 150px;
     background: url("../images/v18_20.png");
@@ -111,20 +116,22 @@
     left: 2px;
     border-radius: 50%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44999998807907104);
-  }
-  .v18_22 {
+}
+
+.v18_22 {
     width: 150px;
     height: 40px;
-    background: rgba(87,199,179,1);
+    background: rgba(87, 199, 179, 1);
     opacity: 1;
     position: absolute;
     top: 177px;
     left: 0px;
     overflow: hidden;
-  }
-  .v18_24 {
+}
+
+.v18_24 {
     width: 123px;
-    color: rgba(0,0,0,1);
+    color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 182px;
     left: 12px;
@@ -133,42 +140,52 @@
     font-size: 13px;
     opacity: 1;
     text-align: center;
-  }
-  .name {
+}
+
+.name {
     color: #fff;
-  }
-  .v24_4 {
+}
+
+.search-bar {
+    padding: 1rem;
+    background-color: var(--bg-card-and-search);
+    color: var(--font-color-blue-bg);
+}
+
+.v24_4 {
     width: 350px;
     height: 94px;
-    background: url("../images/v24_4.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     opacity: 1;
     position: absolute;
     top: 383px;
-    left: 39px;
     overflow: hidden;
-  }
-  .v12_39 {
+    text-align: center;
+}
+
+.search-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 350px;
     height: 94px;
-    background: rgba(46,52,104,1);
+    background: rgba(46, 52, 104, 1);
     opacity: 1;
     position: relative;
     top: 0px;
-    left: 0px;
+    left: 5px;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
-  }
-  .v12_60 {
+}
+
+.v12_60 {
     width: 45px;
     height: 45px;
-    background: url("../images/v12_60.png");
+    background: url("/assets/images/loupe.png");
+    border: none;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -176,10 +193,10 @@
     position: absolute;
     top: 25px;
     left: 28px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    overflow: hidden;
-  }
-  .v12_44 {
+    cursor: pointer;
+}
+
+.v12_44 {
     width: 324px;
     height: 322px;
     background: url("../images/v12_44.png");
@@ -191,8 +208,8 @@
     top: 37px;
     left: 45px;
     overflow: hidden;
-  }
-  .name {
+}
+
+.name {
     color: #fff;
-  }
-  
+}
