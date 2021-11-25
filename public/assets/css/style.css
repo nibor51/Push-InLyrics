@@ -1,12 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-:root {
-    --bg-body: #14194B;
-    --font-color-blue-bg: #E2E2E2;
-    --font-color-orange-bg: #14194B;
-    --bg-card-select: #F68579;
-    --bg-card-and-search: #2E3468;
-    --items: #57C7B3;
-    --font-title: 'Montserrat', sans-serif;
-    --font-text: 'Roboto', sans-serif;
-}
+                        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+                     :root {
+                        --bg-body: #14194B;
+                        --font-color-blue-bg: #E2E2E2;
+                        --font-color-orange-bg: #14194B;
+                        --bg-card-select: #F68579;
+                        --bg-card-and-search: #2E3468;
+                        --items: #57C7B3;
+                        --font-title: 'Montserrat', sans-serif;
+                        --font-text: 'Roboto', sans-serif;
+                    }
+                    
+                    body {
+                        background-color: var(--bg-body);
+                        font-family: var(--font-title);
+                        color: var(--font-color-blue-bg);
+                    }
+                    
+                    .search {
+                        background-color: var(--bg-card-and-search);
+                        border-radius: 5rem;
+                        box-shadow: 20px 20px 60px #111540, -20px -20px 60px #171d56;
+                        border: 1px solid var(--bg-card-and-search);
+                        width: 100%;
+                        display: flex;
+                        padding: 1rem 2rem;
+                    }
+                    
+                    .searchTerm {
+                        background-color: var(--bg-card-and-search);
+                        width: 100%;
+                        padding: 5px;
+                        height: 20px;
+                        outline: none;
+                        color: var(--font-color-blue-bg);
+                    }
+                    
+                    .searchTerm:focus {}
+                    
+                    .searchButton {
+                        width: 40px;
+                        height: 36px;
+                        border: none;
+                        background: var(--bg-card-and-search);
+                        cursor: pointer;
+                    }
+                    /*Resize the wrap to see the search bar change!*/
+                    
+                    .wrap {
+                        display: flex;
+                        width: 70%;
