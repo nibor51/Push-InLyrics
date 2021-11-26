@@ -234,7 +234,7 @@ body {
   .name {
     color: #fff;
 }
-
+/* SHOWPAGE */
 .show-container {
     display: flex;
     flex-direction: column;
@@ -277,3 +277,4 @@ body {
 .div-card {
     margin: 1rem 0;
 }
+/* END SHOWPAGE */
