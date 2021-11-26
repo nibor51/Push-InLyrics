@@ -155,7 +155,7 @@ body {
       color: var(--font-color-blue-bg);
     background-color: var(--bg-card-and-search);
 }
-.search-bar-home {
+.search-bar {
     width: 75%;
     background-color: var(--bg-card-and-search);
     color: var(--font-color-blue-bg);
