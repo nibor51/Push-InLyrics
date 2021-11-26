@@ -246,6 +246,30 @@ body {
     color: #fff;
 }
 
+.intro {
+    color: var(--bg-card-select);
+    width: 370px;
+    font-family: var(--font-title);
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1.7rem;
+    position: absolute;
+    bottom: 16rem;
+    left: 1rem;
+}
+
+.intro2 {
+    color: var(--font-color-blue-bg);
+    width: 370px;
+    font-family: var(--font-text);
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1.7rem;
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+}
+
 
 /* SHOWPAGE */
 

@@ -1,36 +1,42 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layout.html.twig' %} {% block content %}
+<div class="logo">
+    <div class="v12_34">
+        <p class="intro"> Bienvenue à toi qui chante sous ta douche !
+        </p><br><br>
+        <p class="intro2">Mais quelle est cette chansons ? <br> Rentre tes paroles et retrouve ce son qui trotte dans ta tête. </p>
+    </div>
 
-{% block content %}
-	<div class="logo">
-		<div class="v12_34"></div>
-		<div class="v24_6">
-			<div class="v18_21"></div>
-			<div class="v18_23"></div>
-			<span class="v18_25">
-				Album 
-								            Nom de la musique
-			</span>
-		</div>
-		<div class="v24_5">
-			<div class="v18_20"></div>
-			<div class="v18_22"></div>
 
-			<span class="v18_24">
-				Album 
-								            Nom de la musique
-			</span>
-		</div>
-		<div class="name"></div>
-		<div class="v24_4">
-			<div class="v12_39">
-				<input style="border:none" type="text" class="search-bar" placeholder="  Push your lyrics !">
-			</div>
-			<button type="submit" class="v12_60"></button>
-		</div>
-		{# LOGO #}
-		<div class="v12_44"></div>
-		{# END LOGO #}
-		<div class="name"></div>
-	</div>
+
+    {#
+    <div class="v24_6">
+        <div class="v18_21"></div>
+        <div class="v18_23"></div>
+        <span class="v18_25">
+						Album 
+										            Nom de la musique
+					</span>
+    </div> #} {#
+    <div class="v24_5">
+        <div class="v18_20"></div>
+        <div class="v18_22"></div>
+
+        <span class="v18_24">
+						Album 
+										            Nom de la musique
+					</span>
+    </div> #}
+    <div class="name"></div>
+    <div class="v24_4">
+        <div class="v12_39">
+            <input style="border:none" type="text" class="search-bar" placeholder="  Push your lyrics !">
+        </div>
+        <button type="submit" class="v12_60"></button>
+    </div>
+    {# LOGO #}
+    <div class="v12_44"></div>
+    {# END LOGO #}
+    <div class="name"></div>
+</div>
 
 {% endblock %}
