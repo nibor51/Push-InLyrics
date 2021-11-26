@@ -22,8 +22,8 @@
     background-size: cover;
   }
   .v199_73 {
-    width: 365px;
-    height: 865px;
+    width: 428px;
+    height: 926px;
     background: url("../images/v199_73.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -41,7 +41,7 @@
     opacity: 1;
     position: absolute;
     top: 352px;
-    left: 17px;
+    left: 40px;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -53,7 +53,7 @@
     color: rgba(20,25,75,1);
     position: absolute;
     top: 533px;
-    left: 73px;
+    left: 96px;
     font-family: Montserrat;
     font-weight: Bold;
     font-size: 16px;
@@ -63,11 +63,11 @@
   .v38_90 {
     width: 150px;
     height: 150px;
-    background: url("../images/v38_90.png");
+    background: url("../images/Edith\ Piaf.png");
     opacity: 1;
     position: absolute;
     top: 360px;
-    left: 108px;
+    left: 131px;
     border-radius: 50%;
   }
   .name {
@@ -78,8 +78,8 @@
   }
   /* logo */
   .v38_98 {
-    width: 165px;
-    height: 164px;
+    width: 250px;
+    height: 250px;
     background: url("../images/Push\'in\ Lyrics.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -87,8 +87,9 @@
     opacity: 1;
     position: absolute;
     top: 0px;
-    left: 100px;
+    left: 85px;
     overflow: hidden;
+    margin-top: 2rem;
   }
   /* end logo */
   .v38_107 {
@@ -96,12 +97,13 @@
     color: rgba(20,25,75,1);
     position: absolute;
     top: 632px;
-    left: 35px;
+    left: 58px;
     font-family: Roboto;
     font-weight: Italic;
     font-size: 16px;
     opacity: 1;
     text-align: center;
+    overflow: scroll;
   }
   /* language */
   .v38_93 {
@@ -148,7 +150,7 @@
     color: rgba(20,25,75,1);
     position: absolute;
     top: 556px;
-    left: 0px;
+    left: 23px;
     font-family: Montserrat;
     font-weight: Bold;
     font-size: 18px;
@@ -160,7 +162,7 @@
     color: rgba(20,25,75,1);
     position: absolute;
     top: 576px;
-    left: 6px;
+    left: 29px;
     font-family: Montserrat;
     font-weight: Bold;
     font-size: 16px;
@@ -172,7 +174,7 @@
     color: rgba(20,22,75,1);
     position: absolute;
     top: 598px;
-    left: 62px;
+    left: 85px;
     font-family: Montserrat;
     font-weight: Bold;
     font-size: 16px;
