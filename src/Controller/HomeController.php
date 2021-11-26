@@ -27,4 +27,8 @@ class HomeController extends AbstractController
     {
         return $this->twig->render('Show1/show.html.twig');
     }
+    public function modal()
+    {
+        return $this->twig->render('Modal/modal.html.twig');
+    }
 }

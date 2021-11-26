@@ -150,8 +150,12 @@ body {
 .name {
     color: #fff;
 }
-
-.search-bar {
+.search-bar-show {
+    padding: 1rem;
+      color: var(--font-color-blue-bg);
+    background-color: var(--bg-card-and-search);
+}
+.search-bar-home {
     width: 75%;
     background-color: var(--bg-card-and-search);
     color: var(--font-color-blue-bg);
@@ -317,8 +321,20 @@ body {
 }
 
 .div-card {
-    margin: 1rem 0;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
 
-
+.infos {
+  margin-left: 1rem;
+  width: 45px;
+  height: 45px;
+  background: url("/assets/images/button-show.png");
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 /* END SHOWPAGE */

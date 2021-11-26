@@ -7,22 +7,24 @@
         </div>
         <div class="search-container">
             <button type="submit" class="button"></button>
-            <input style="border:none" type="text" class="search-bar" placeholder="Push your lyrics !">
+            <input style="border:none" type="text" class="search-bar-show" placeholder="Push your lyrics !">
         </div>
     </div>
 
-
-
-
-    <div class="cards">
+        <div class="cards">
         <div class="div-card">
             {% include 'Components/_player.html.twig' with {trackId: '3dkIE8P7hvl3tHl9KSb6dA'} %}
+            <a href="/modal" class="infos"></a>
         </div>
         <div></div>
-        <div class="div-card"> {% include 'Components/_player.html.twig' with {trackId: '5Mxfz7g8AnAhV7vtwWrSR6'} %}
+        <div class="div-card">
+            {% include 'Components/_player.html.twig' with {trackId: '5Mxfz7g8AnAhV7vtwWrSR6'} %}
+            <a href="/show" class="infos"></a>
         </div>
         <div></div>
-        <div class="div-card"> {% include 'Components/_player.html.twig' with {trackId: '5dY0MAjN9AkigLgv3U3WJS'}%}
+        <div class="div-card">
+            {% include 'Components/_player.html.twig' with {trackId: '5dY0MAjN9AkigLgv3U3WJS'}%}
+            <a href="/show" class="infos"></a>
         </div>
     </div>
 </div>
