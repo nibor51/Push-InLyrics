@@ -25,6 +25,10 @@ class HomeController extends AbstractController
     }
     public function show()
     {
-        return $this->twig->render('Show1/show.html.twig');
+        if ($_GET['search'] === "Je ne regrette rien") {
+            return $this->twig->render('Show1/show.html.twig');
+        } else if ($_GET['search'] === "Boum Boum") {
+            return $this->twig->render('Show2/index.html.twig');
+        }
     }
 }

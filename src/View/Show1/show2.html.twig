@@ -1,0 +1,28 @@
+{% extends 'layout.html.twig' %} 
+
+{% block content %}
+<div class="show-container">
+    <!-- header logo-->
+    <div class="head-container">
+        <div>
+            <img src="/assets/images/Push'in Lyrics.png" alt="logo" width="250px">
+        </div>
+        <div class="search-container">
+            <button type="submit" class="button"></button>
+            <input style="border:none" type="text" class="search-bar-show" placeholder="Push your lyrics !">
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="div-card">
+            {% include 'Components/_player.html.twig' with {trackId: '3dkIE8P7hvl3tHl9KSb6dA'} %}
+        </div>
+        <div></div>
+        <div class="div-card"> {% include 'Components/_player.html.twig' with {trackId: '5Mxfz7g8AnAhV7vtwWrSR6'} %}
+        </div>
+        <div></div>
+        <div class="div-card"> {% include 'Components/_player.html.twig' with {trackId: '5dY0MAjN9AkigLgv3U3WJS'}%}
+        </div>
+    </div>
+</div>
+{% endblock %}
