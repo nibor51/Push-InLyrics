@@ -241,6 +241,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 1rem 0;
+    height: 100vh;
 }
 
 .search-container {
@@ -271,7 +272,10 @@ body {
 
 .cards {
     height: 50vh;
-    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
 
 .div-card {
