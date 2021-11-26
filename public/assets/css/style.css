@@ -285,6 +285,19 @@ body {
 
 .div-card {
   margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
 
+.infos {
+  margin-left: 1rem;
+  width: 45px;
+  height: 45px;
+  background: url("/assets/images/button-show.png");
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 /* END SHOWPAGE */
