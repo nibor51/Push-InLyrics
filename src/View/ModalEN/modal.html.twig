@@ -1,29 +1,49 @@
-{% extends 'layout.html.twig' %} 
-{% block stylesheet %}<link rel="stylesheet" href="/assets/css/modal.css">{% endblock %}
+{% extends 'layout.html.twig' %}
+{% block stylesheet %}
+<link rel="stylesheet" href="/assets/css/modal.css">{% endblock %}
 {% block content %}
-<!DOCTYPE html><html><head><link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" /><link href="./main.css" rel="stylesheet" />
-<title>Document</title>
-</head><body><div class="v199_73">
+<!DOCTYPE html>
+<html>
 
-<div class="show-container">
-    <!-- header logo-->
-        <div class="search-container">
-            <button type="submit" class="button"></button>
-            <input style="border:none" type="text" class="search-bar" placeholder="Push your lyrics !">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="./main.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="v199_73">
+
+            {# <!-- header logo-->
+            <div class="search-container">
+                <button type="submit" class="button"></button>
+                <input style="border:none" type="text" class="search-bar" placeholder="Push your lyrics !">
+            </div> #}
+
+
+        <div class="v38_106"></div>
+        <span class="v38_89">Non, je ne regrette rien</span>
+        <div class="v38_90"></div>
+        <div class="name"></div>
+        <div class="name"></div>
+        <a href="/" class="v38_98"></a>
+        <span id="lyrics" class="v38_107">
+
+        </span>
+        <div class="v38_93">
+            <div class="v38_94"></div>
+            <div class="v38_95"></div>
+            <a href="/modal" class="v38_96"></a>
+            <div class="v38_97"></div>
         </div>
+        <span class="v198_73">Edith Piaf</span>
+        <span class="v198_74">Eternelle</span>
+        <span class="v198_75">2000</span>
     </div>
+</body>
 
-
-<div class="v38_106"></div><span class="v38_89">Non, je ne regrette rien
-</span><div class="v38_90"></div><div class="name"></div><div class="name"></div><div class="v38_98"></div><span id="lyrics" class="v38_107">Non, rien de rien Non, je ne regrette rien
-Ni le bien qu'on m'a fait Ni le mal
-Tout ça m'est bien égal Non, rien de rien
-Non, je ne regrette rien C'est payé, balayé, oublié
-Je me fous du passé Avec mes souvenirs
-J'ai allumé le feu Mes chagrins, mes plaisirs
-Je n'ai plus besoin d'eux 
-Balayé les amours
-</span><div class="v38_93"><div class="v38_94"></div><div class="v38_95"></div><div class="v38_96"></div><div class="v38_97"></div></div><span class="v198_73">Edith Piaf</span><span class="v198_74">Eternelle</span><span class="v198_75">2000</span></div></body></html>
+</html>
 
 {% endblock %}
 {% block javascript %}

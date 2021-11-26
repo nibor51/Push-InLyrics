@@ -31,4 +31,8 @@ class HomeController extends AbstractController
     {
         return $this->twig->render('Modal/modal.html.twig');
     }
+    public function modal_en()
+    {
+        return $this->twig->render('ModalEN/modal.html.twig');
+    }
 }

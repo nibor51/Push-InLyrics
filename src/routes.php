@@ -10,4 +10,5 @@ return [
     '' => ['HomeController', 'index',],
     'show' => ['HomeController', 'show', ['id']],
     'modal' => ['HomeController', 'modal', ['id']],
+    'modal_en' => ['HomeController', 'modal_en', ['id']],
 ];
