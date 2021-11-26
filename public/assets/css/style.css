@@ -1,286 +1,299 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 :root {
-  --bg-body: #14194B;
-  --font-color-blue-bg: #E2E2E2;
-  --font-color-orange-bg: #14194B;
-  --bg-card-select: #F68579;
-  --bg-card-and-search: #2E3468;
-  --items: #57C7B3;
-  --font-title: 'Montserrat', sans-serif;
-  --font-text: 'Roboto', sans-serif;
+    --bg-body: #14194B;
+    --font-color-blue-bg: #E2E2E2;
+    --font-color-orange-bg: #14194B;
+    --bg-card-select: #F68579;
+    --bg-card-and-search: #2E3468;
+    --items: #57C7B3;
+    --font-title: 'Montserrat', sans-serif;
+    --font-text: 'Roboto', sans-serif;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-size: 14px;
-  background-color: var(--bg-body);
-  font-family: var(--font-color-blue-bg);
-  color: var(--font-text);
+    font-size: 20px;
+    background-color: var(--bg-body);
+    font-family: var(--font-color-blue-bg);
+    color: var(--font-text);
 }
 
 .logo {
-  width: 414px;
-  height: 896px;
-  background: url("../images/Amel\ Bent.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+    width: 414px;
+    height: 896px;
+    background: url("../images/Amel\ Bent.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
 }
 
 .v12_34 {
-  width: 414px;
-  height: 896px;
-  background: rgba(20, 25, 75, 1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  border: 1px solid rgba(0, 0, 0, 1);
-  overflow: hidden;
+    width: auto;
+    height: 896px;
+    background: rgba(20, 25, 75, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
 }
 
 .v24_6 {
-  width: 155px;
-  height: 217px;
-  background: url("../images/Amel\ Bent.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 581px;
-  left: 224px;
-  overflow: hidden;
+    width: 155px;
+    height: 217px;
+    background: url("../images/Amel\ Bent.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 581px;
+    left: 224px;
+    overflow: hidden;
 }
 
 .v18_21 {
-  width: 150px;
-  height: 150px;
-  background: url("../images/Mister\ You.png");
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 5px;
-  border-radius: 50%;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44999998807907104);
+    width: 150px;
+    height: 150px;
+    background: url("../images/Mister\ You.png");
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44999998807907104);
 }
 
 .v18_23 {
-  width: 150px;
-  height: 40px;
-  background: rgba(87, 199, 179, 1);
-  opacity: 1;
-  position: absolute;
-  top: 177px;
-  left: 0px;
-  overflow: hidden;
+    width: 150px;
+    height: 40px;
+    background: rgba(87, 199, 179, 1);
+    opacity: 1;
+    position: absolute;
+    top: 177px;
+    left: 0px;
+    overflow: hidden;
 }
 
 .v18_25 {
-  width: 123px;
-  color: rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 182px;
-  left: 18px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 13px;
-  opacity: 1;
-  text-align: center;
+    width: 123px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 182px;
+    left: 18px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 13px;
+    opacity: 1;
+    text-align: center;
 }
 
 .v24_5 {
-  width: 152px;
-  height: 217px;
-  background: url("../images/Amel\ Bent.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 581px;
-  left: 42px;
-  overflow: hidden;
+    width: 152px;
+    height: 217px;
+    background: url("../images/Amel\ Bent.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 581px;
+    left: 42px;
+    overflow: hidden;
 }
 
 .v18_20 {
-  width: 150px;
-  height: 150px;
-  background: url("../images/Mister\ You.png");
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 2px;
-  border-radius: 50%;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44999998807907104);
+    width: 150px;
+    height: 150px;
+    background: url("../images/Mister\ You.png");
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44999998807907104);
 }
 
 .v18_22 {
-  width: 150px;
-  height: 40px;
-  background: rgba(87, 199, 179, 1);
-  opacity: 1;
-  position: absolute;
-  top: 177px;
-  left: 0px;
-  overflow: hidden;
+    width: 150px;
+    height: 40px;
+    background: rgba(87, 199, 179, 1);
+    opacity: 1;
+    position: absolute;
+    top: 177px;
+    left: 0px;
+    overflow: hidden;
 }
 
 .v18_24 {
-  width: 123px;
-  color: rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 182px;
-  left: 12px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 13px;
-  opacity: 1;
-  text-align: center;
+    width: 123px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 182px;
+    left: 12px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 13px;
+    opacity: 1;
+    text-align: center;
 }
 
 .name {
-  color: #fff;
+    color: #fff;
 }
-
-.search-bar {
-  padding: 1rem;
-  background-color: var(--bg-card-and-search);
-  color: var(--font-color-blue-bg);
+.search-bar-show {
+    padding: 1rem;
+      color: var(--font-color-blue-bg);
+    background-color: var(--bg-card-and-search);
+}
+.search-bar-home {
+    width: 75%;
+    background-color: var(--bg-card-and-search);
+    color: var(--font-color-blue-bg);
+    font-size: 1.6rem;
+    position: absolute;
+    left: 5.5rem;
+    top: 30px;
 }
 
 .v24_4 {
-  width: 350px;
-  height: 94px;
-  /* BG INUTILE */
-  background: url("../images/Edith\ Piaf.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 383px;
-  overflow: hidden;
-  text-align: center;
+    width: 400px;
+    height: 94px;
+    /* BG INUTILE */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 383px;
+    overflow: hidden;
+    text-align: center;
 }
-
 
 .search-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /* SEARCH BAR */
+
 .v12_39 {
-  width: 350px;
-  height: 94px;
-  background: rgba(46, 52, 104, 1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 5px;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  border-bottom-left-radius: 100px;
-  border-bottom-right-radius: 100px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
+    height: 94px;
+    margin-left: 0.3rem;
+    background: rgba(46, 52, 104, 1);
+    opacity: 1;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
 }
 
+
 /* END SEARCH BAR */
+
+
 /* LOUPE */
+
 .v12_60 {
-  width: 45px;
-  height: 45px;
-  background: url("/assets/images/loupe.png");
-  border: none;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 28px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-  cursor: pointer;
+    width: 45px;
+    height: 45px;
+    background: url("/assets/images/loupe.png");
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 25px;
+    left: 2rem;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 
 /* END LOUPE */
+
+
 /* LOGO */
+
 .v12_44 {
-  width: 324px;
-  height: 322px;
-  background: url("../images/Push\'in\ Lyrics.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 37px;
-  left: 45px;
-  overflow: hidden;
+    width: 324px;
+    height: 322px;
+    background: url("../images/Push\'in\ Lyrics.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 37px;
+    left: 45px;
+    overflow: hidden;
 }
+
 
 /* END LOGO */
+
 .name {
-  color: #fff;
+    color: #fff;
 }
 
+
 /* SHOWPAGE */
+
 .show-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem 0;
-  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    height: 100vh;
 }
 
 .search-container {
-  background-color: var(--bg-card-and-search);
-  color: var(--font-color-blue-bg);
-  padding: 1rem;
-  border-radius: 100px;
+    background-color: var(--bg-card-and-search);
+    color: var(--font-color-blue-bg);
+    padding: 1rem;
+    border-radius: 100px;
 }
 
 .head-container {
-  border-bottom: 1px solid var(--items);
-  padding-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    border-bottom: 1px solid var(--items);
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .button {
-  width: 45px;
-  height: 45px;
-  background: url("/assets/images/loupe.png");
-  border: none;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+    width: 45px;
+    height: 45px;
+    background: url("/assets/images/loupe.png");
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .cards {
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
 
 .div-card {
