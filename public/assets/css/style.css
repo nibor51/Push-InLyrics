@@ -152,17 +152,17 @@ body {
 }
 
 .search-bar {
-    width: 70%;
+    width: 75%;
     background-color: var(--bg-card-and-search);
     color: var(--font-color-blue-bg);
     font-size: 1.6rem;
     position: absolute;
-    left: 7rem;
+    left: 5.5rem;
     top: 30px;
 }
 
 .v24_4 {
-    width: 350px;
+    width: 400px;
     height: 94px;
     /* BG INUTILE */
     background-repeat: no-repeat;
@@ -186,8 +186,7 @@ body {
 
 .v12_39 {
     height: 94px;
-    width: 120%;
-    margin-left: 3rem;
+    margin-left: 0.3rem;
     background: rgba(46, 52, 104, 1);
     opacity: 1;
     border-top-left-radius: 100px;
@@ -215,7 +214,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 25px;
-    left: 6rem;
+    left: 2rem;
     overflow: hidden;
     cursor: pointer;
 }
