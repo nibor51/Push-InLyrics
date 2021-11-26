@@ -64,6 +64,9 @@
     width: 150px;
     height: 150px;
     background: url("../images/Edith\ Piaf.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     opacity: 1;
     position: absolute;
     top: 360px;
