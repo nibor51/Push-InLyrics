@@ -30,7 +30,7 @@
         <div class="name"></div>
         <div class="name"></div>
         <div class="v38_98"></div>
-        <span class="v38_107">
+        <span id="lyrics" class="v38_107">
             Non, rien de rien Non, je ne regrette rien
             Ni le bien qu'on m'a fait Ni le mal
             Tout ça m'est bien égal Non, rien de rien
@@ -54,4 +54,13 @@
 
 </html>
 
+{% endblock %}
+{% block javascript %}
+<script>
+fetch('/assets/JSON/Sing.json')
+    .then(response => response.json())
+    .then(json => {
+        document.getElementById('lyrics').innerHTML = json.Song.Lyrics.FR;
+    })
+</script>
 {% endblock %}

@@ -1,0 +1,24 @@
+{
+    "Song": {
+
+        "firstname": "Édith",
+
+        "lastname": "Piaf",
+
+        "title": {
+
+        "EN": "No, I do not regret anything",
+        "FR": "Non, je ne regrette rien"
+
+        },
+
+        "Date": 1956,
+
+        "Lyrics": {
+
+            "FR": "Non, rien de rien<br>Non, je ne regrette rien<br>Ni le bien qu'on m'a fait<br>Ni le mal<br>Tout ça m'est bien égal<br>Non, rien de rien<br>Non, je ne regrette rien<br>C'est payé, balayé, oublié<br>Je me fous du passé<br>Avec mes souvenirs<br>J'ai allumé le feu<br>Mes chagrins, mes plaisirs<br>Je n'ai plus besoin d'eux<br>Balayé les amours<br>Avec leurs trémolos<br>Balayé pour toujours<br>Je repars à zéro<br>Non, rien de rien<br>Non, je ne regrette rien<br>Ni le bien qu'on m'a fait<br>Ni le mal<br>Tout ça m'est bien égal<br>Non, rien de rien<br>Non, je ne regrette rien<br>Car ma vie<br>Car mes joies<br>Aujourd'hui<br>Ça commence avec toi",
+            "EN": "No, nothing at all<br>No, I do not regret anything<br>Nor the good that was done to me<br>Nor the evil<br>All that I care<br>No, nothing at all<br>No, I do not regret anything<br>It is paid, swept away, forgotten<br>I do not care about the past<br>With my memories<br>I started the fire<br>my sorrows, my pleasures<br>I do not need them anymore<br>Swept away the loves<br>With their tremolos<br>Swept away forever<br>I go back to zero<br>No, nothing at all<br>No, I do not regret anything<br>Nor the good that was done to me<br>Nor the evil<br>All that I care<br>No, nothing at all<br>No, I do not regret anything<br>Because my life<br>Because my joys<br>Today<br>It begins with you"
+        }
+    }
+}
+    
