@@ -83,10 +83,11 @@
   .name {
     color: #fff;
   }
+  /* logo */
   .v38_98 {
     width: 165px;
     height: 164px;
-    background: url("../images/v38_98.png");
+    background: url("../images/Push\'in\ Lyrics.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -96,6 +97,7 @@
     left: 100px;
     overflow: hidden;
   }
+  /* end logo */
   .v38_107 {
     width: 300px;
     color: rgba(20,25,75,1);
@@ -108,6 +110,7 @@
     opacity: 1;
     text-align: center;
   }
+  /* language */
   .v38_93 {
     width: 50px;
     height: 61px;
@@ -120,6 +123,7 @@
     top: 24px;
     left: 312px;
     overflow: hidden;
+    /* end language */
   }
   .v38_94 {
     width: 50px;
@@ -131,10 +135,11 @@
     left: 0px;
     border-radius: 50%;
   }
+  /* logo lang */
   .v38_96 {
     width: 27px;
     height: 27px;
-    background: url("../images/v38_96.png");
+    background: url("../images/world.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -143,6 +148,7 @@
     top: 12px;
     left: 12px;
     overflow: hidden;
+    /* end logo lang */
   }
   .v198_73 {
     width: 365px;
