@@ -31,7 +31,7 @@ Balayé les amours
 fetch('/assets/JSON/Sing.json')
     .then(response => response.json())
     .then(json => {
-        document.getElementById('lyrics').innerHTML = json.Song.Lyrics.FR;
+        document.getElementById('lyrics').innerHTML = json.Song.Lyrics.EN;
     })
 </script>
 {% endblock %}
