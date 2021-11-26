@@ -150,8 +150,12 @@ body {
 .name {
     color: #fff;
 }
-
-.search-bar {
+.search-bar-show {
+    padding: 1rem;
+      color: var(--font-color-blue-bg);
+    background-color: var(--bg-card-and-search);
+}
+.search-bar-home {
     width: 75%;
     background-color: var(--bg-card-and-search);
     color: var(--font-color-blue-bg);
