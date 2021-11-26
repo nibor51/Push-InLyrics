@@ -154,6 +154,8 @@ body {
     padding: 1rem;
       color: var(--font-color-blue-bg);
     background-color: var(--bg-card-and-search);
+    font-size: 1.6rem;
+    width: 75%;
 }
 .search-bar {
     width: 75%;
@@ -291,6 +293,9 @@ body {
     color: var(--font-color-blue-bg);
     padding: 1rem;
     border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .head-container {
@@ -310,6 +315,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+
 }
 
 .cards {
